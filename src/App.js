@@ -44,9 +44,10 @@ function App() {
     <div className="max-w-6xl mx-auto p-6 space-y-12 font-sans text-gray-800">
       {/* Header */}
       <div className="text-center space-y-3">
-      <h1 className="text-4xl font-bold text-green-700">
+     <h1 className="text-4xl font-bold text-green-700">
   🚀 TEST CHANGE: Space Available NOW
 </h1>
+
 
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           Great office/apt building in a prime location on Main Street, Throop PA — just ½ mile from Scranton.
