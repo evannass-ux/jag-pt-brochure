@@ -45,7 +45,7 @@ function App() {
           🏢 Prime Medical / Office Space Available
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Great office/apt building in a prime location on Main Street, Throop PA — just ½ mile from Scranton.
+          Great office/apt building in a prime location on Sanderson Street, Throop PA — just ½ mile from Scranton.
         </p>
       </div>
 
@@ -90,11 +90,13 @@ function App() {
             <ChevronLeft size={32} />
           </button>
           <div className="flex items-center justify-center w-full">
-            <img
-              src={`/${images[currentIndex]}`}
-              alt={`Property ${currentIndex + 1}`}
-              className="w-full max-w-4xl h-96 sm:h-[32rem] object-cover rounded-lg border border-gray-300 shadow-sm bg-white"
-            />
+       <img
+  src={`/${images[currentIndex]}`}
+  alt={`Property ${currentIndex + 1}`}
+  style={{ width: "1024px", height: "768px", objectFit: "cover" }}
+  className="rounded-lg border border-gray-300 shadow-sm bg-white"
+/>
+
           </div>
           <button
             onClick={nextImage}
