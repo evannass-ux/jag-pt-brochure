@@ -48,7 +48,7 @@ function App() {
           🏢 Prime Medical / Office Space Available
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Great office/apt building in a prime location on Main Street, Throop PA — just ½ mile from Scranton.
+          Great office/apt building in a prime location on Sanderson Street, Throop PA — just ½ mile from Scranton.
         </p>
       </div>
 
