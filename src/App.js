@@ -89,11 +89,11 @@ function App() {
           >
             <ChevronLeft size={32} />
           </button>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center w-full">
             <img
               src={`/${images[currentIndex]}`}
               alt={`Property ${currentIndex + 1}`}
-              className="w-[1024px] h-[768px] object-cover rounded-lg border border-gray-300 shadow-sm bg-white"
+              className="w-full max-w-4xl h-96 sm:h-[32rem] object-cover rounded-lg border border-gray-300 shadow-sm bg-white"
             />
           </div>
           <button
