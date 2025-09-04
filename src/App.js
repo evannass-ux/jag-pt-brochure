@@ -1,35 +1,32 @@
 import React, { useState } from "react";
 import { MapPin, Car, Home, Ruler, ChevronLeft, ChevronRight } from "lucide-react";
 
-// List of images from /public
 const images = [
   "20120625215501582764000000-o.jpg",
   "20120625215503477372000000-o.jpg",
-  "20120625220004759055000000-o.jpg",
-  "20120625220006651335000000-o.jpg",
-  "20120625221113339228000000-o.jpg",
-  "20120625221116656878000000-o.jpg",
-  "20120625221120398125000000-o.jpg",
-  "20120625221123533548000000-o.jpg",
-  "20120626005934314345000000-o.jpg",
-  "20120626005937346789000000-o.jpg",
-  "20120626005940346181000000-o.jpg",
   "20121213174935215987000000-o.jpg",
   "20140714031922776727000000-o.jpg",
   "20140725012719449243000000-o.jpg",
   "20140725012723911565000000-o.jpg",
-  "20140725012727704131000000-o.jpg",
-  "20140725012731437111000000-o.jpg",
   "20140725012735127180000000-o.jpg",
   "20140725012743208739000000-o.jpg",
   "20140725012747153255000000-o.jpg",
   "20140725012750412487000000-o.jpg",
   "20140725013757178809000000-o.jpg",
   "20140725013802237873000000-o.jpg",
-  "20140725013806903531000000-o.jpg",
   "20140725013813085596000000-o.jpg",
-  "20140725013955592025000000-o.jpg",
-  "20140725014047900152000000-o.jpg",
+  "IMG_0890.jpg",
+  "IMG_0891.jpg",
+  "IMG_0892.jpg",
+  "IMG_0893.jpg",
+  "IMG_0894.jpg",
+  "IMG_0895.jpg",
+  "IMG_0896.jpg",
+  "IMG_0897.jpg",
+  "IMG_0898.jpg",
+  "IMG_0899.jpg",
+  "IMG_0900.jpg",
+  "IMG_0901.jpg"
 ];
 
 function App() {
@@ -86,7 +83,7 @@ function App() {
       {/* Slideshow */}
       <div className="space-y-4">
         <h2 className="text-2xl font-semibold text-blue-700 text-center">Photo Slideshow</h2>
-        <div className="relative w-full h-96 bg-gray-200 rounded-2xl shadow overflow-hidden flex items-center justify-center">
+        <div className="relative w-full h-80 bg-gray-200 rounded-2xl shadow overflow-hidden flex items-center justify-center">
           <button
             onClick={prevImage}
             className="absolute left-4 bg-black bg-opacity-50 p-2 rounded-full text-white hover:scale-110 transition-transform"
@@ -96,7 +93,7 @@ function App() {
           <img
             src={`/${images[currentIndex]}`}
             alt={`Property ${currentIndex + 1}`}
-            className="w-full h-full object-cover"
+            className="w-full h-80 object-cover rounded-lg"
           />
           <button
             onClick={nextImage}
@@ -106,7 +103,7 @@ function App() {
           </button>
         </div>
 
-        {/* Dots for slideshow */}
+        {/* Dots */}
         <div className="flex justify-center mt-2 space-x-2">
           {images.map((_, idx) => (
             <button
