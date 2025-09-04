@@ -74,7 +74,7 @@ function App() {
             Excellent visibility on Main Street in Throop, PA, just ½ mile from Scranton. Surrounded by residential communities, schools, and hospitals, making it ideal for Physical Therapy (JAG PT), healthcare, or professional office tenants.
           </p>
           <div className="flex items-center gap-2 text-gray-700">
-            <MapPin size={18}/> Main St, Throop, PA
+            <MapPin size={18}/> Sanderson St, Throop, PA
           </div>
         </div>
       </div>
