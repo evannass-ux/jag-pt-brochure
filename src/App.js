@@ -122,9 +122,7 @@ function App() {
         <p className="text-lg font-semibold text-blue-700">For Leasing Information:</p>
         <p className="text-gray-800">Evan Nass – TLY Holdings, LLC</p>
         <p className="text-gray-800">📧 tlyholdings@gmail.com | 📱 570-290-6966</p>
-        <button className="rounded-2xl px-6 py-2 bg-blue-600 text-white hover:bg-blue-700 shadow">
-          Request a Tour
-        </button>
+        
       </div>
     </div>
   );
