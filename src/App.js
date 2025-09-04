@@ -64,17 +64,18 @@ function App() {
             <li>3 Units, All Separate Utilities</li>
             <li>Previously an MD’s office (easy PT/healthcare conversion)</li>
             <li>6 Rooms, Sitting/Reception Area (25’ x 17’), Two Bathrooms</li>
-            <li>Full Dry Basement for Storage</li>
+            <li>Full Dry Basement for Storage and files</li>
+             <li>Remodel budget dependant on lease term</li>
             <li>Central Air, Ceiling Height up to 8’</li>
             <li>Lot on Separate PIN#, Taxes $820/year</li>
-            <li>Seller updating electrical service</li>
+            <li>Updated electrical service</li>
           </ul>
         </div>
 
         <div className="rounded-2xl shadow p-6 space-y-4 bg-blue-50">
           <h2 className="text-2xl font-semibold text-blue-700">Why This Location?</h2>
           <p>
-            Excellent visibility on Main Street in Throop, PA, just ½ mile from Scranton. Surrounded by residential communities, schools, and hospitals, making it ideal for Physical Therapy (JAG PT), healthcare, or professional office tenants.
+            Excellent visibility on the main Sanderson Street in Throop, PA, just ½ mile from Scranton. Surrounded by residential communities, schools, and hospitals, making it ideal for Physical Therapy (JAG PT), healthcare, or professional office tenants.
           </p>
           <div className="flex items-center gap-2 text-gray-700">
             <MapPin size={18}/> Main St, Throop, PA
