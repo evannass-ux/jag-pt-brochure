@@ -45,7 +45,7 @@ function App() {
           🏢 Prime Medical / Office Space Available
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Great office/apt building in a prime location on Sanderson Street, Throop PA — just ½ mile from Scranton.
+          Great office/apt building in a prime location on Main Street, Throop PA — just ½ mile from Scranton.
         </p>
       </div>
 
@@ -61,18 +61,17 @@ function App() {
             <li>3 Units, All Separate Utilities</li>
             <li>Previously an MD’s office (easy PT/healthcare conversion)</li>
             <li>6 Rooms, Sitting/Reception Area (25’ x 17’), Two Bathrooms</li>
-            <li>Full Dry Basement for Storage and files</li>
-             <li>Remodel budget dependant on lease term</li>
+            <li>Full Dry Basement for Storage</li>
             <li>Central Air, Ceiling Height up to 8’</li>
             <li>Lot on Separate PIN#, Taxes $820/year</li>
-            <li>Updated electrical service</li>
+            <li>Seller updating electrical service</li>
           </ul>
         </div>
 
         <div className="rounded-2xl shadow p-6 space-y-4 bg-blue-50">
           <h2 className="text-2xl font-semibold text-blue-700">Why This Location?</h2>
           <p>
-            Excellent visibility on the main Sanderson Street in Throop, PA, just ½ mile from Scranton. Surrounded by residential communities, schools, and hospitals, making it ideal for Physical Therapy (JAG PT), healthcare, or professional office tenants.
+            Excellent visibility on Main Street in Throop, PA, just ½ mile from Scranton. Surrounded by residential communities, schools, and hospitals, making it ideal for Physical Therapy (JAG PT), healthcare, or professional office tenants.
           </p>
           <div className="flex items-center gap-2 text-gray-700">
             <MapPin size={18}/> Main St, Throop, PA
@@ -93,7 +92,7 @@ function App() {
           <img
             src={`/${images[currentIndex]}`}
             alt={`Property ${currentIndex + 1}`}
-            className="w-full h-80 object-cover rounded-lg"
+            className="max-h-80 max-w-full object-contain rounded-lg bg-gray-100"
           />
           <button
             onClick={nextImage}
@@ -122,7 +121,7 @@ function App() {
         <p className="text-lg font-semibold text-blue-700">For Leasing Information:</p>
         <p className="text-gray-800">Evan Nass – TLY Holdings, LLC</p>
         <p className="text-gray-800">📧 tlyholdings@gmail.com | 📱 570-290-6966</p>
-        
+      
       </div>
     </div>
   );
