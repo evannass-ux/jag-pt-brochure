@@ -89,11 +89,13 @@ function App() {
           >
             <ChevronLeft size={32} />
           </button>
-          <img
-            src={`/${images[currentIndex]}`}
-            alt={`Property ${currentIndex + 1}`}
-            className="max-h-80 max-w-full object-contain rounded-lg bg-gray-100"
-          />
+          <div className="flex items-center justify-center w-full h-80">
+            <img
+              src={`/${images[currentIndex]}`}
+              alt={`Property ${currentIndex + 1}`}
+              className="max-h-80 max-w-full object-contain rounded-lg border border-gray-300 shadow-sm bg-white"
+            />
+          </div>
           <button
             onClick={nextImage}
             className="absolute right-4 bg-black bg-opacity-50 p-2 rounded-full text-white hover:scale-110 transition-transform"
@@ -121,7 +123,6 @@ function App() {
         <p className="text-lg font-semibold text-blue-700">For Leasing Information:</p>
         <p className="text-gray-800">Evan Nass – TLY Holdings, LLC</p>
         <p className="text-gray-800">📧 tlyholdings@gmail.com | 📱 570-290-6966</p>
-      
       </div>
     </div>
   );
