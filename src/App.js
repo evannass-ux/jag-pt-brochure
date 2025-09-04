@@ -82,18 +82,18 @@ function App() {
       {/* Slideshow */}
       <div className="space-y-4">
         <h2 className="text-2xl font-semibold text-blue-700 text-center">Photo Slideshow</h2>
-        <div className="relative w-full h-80 bg-gray-200 rounded-2xl shadow overflow-hidden flex items-center justify-center">
+        <div className="relative w-full flex items-center justify-center bg-gray-200 rounded-2xl shadow overflow-hidden">
           <button
             onClick={prevImage}
             className="absolute left-4 bg-black bg-opacity-50 p-2 rounded-full text-white hover:scale-110 transition-transform"
           >
             <ChevronLeft size={32} />
           </button>
-          <div className="flex items-center justify-center w-full h-80">
+          <div className="flex items-center justify-center">
             <img
               src={`/${images[currentIndex]}`}
               alt={`Property ${currentIndex + 1}`}
-              className="max-h-80 max-w-full object-contain rounded-lg border border-gray-300 shadow-sm bg-white"
+              className="w-[1024px] h-[768px] object-cover rounded-lg border border-gray-300 shadow-sm bg-white"
             />
           </div>
           <button
